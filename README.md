@@ -158,7 +158,7 @@ Also, if you increase the instance count of the web site, requests will be distr
 ### On the client slide
 
 The code using ADAL.NET is in the [TodoListClient/MainWindow.xaml.cs](TodoListClient/MainWindow.xaml.cs) file in the `SignIn` method. See [More information](#more-information) below
-for details on how this work.
+for details on how this works.
 
 Also, to avoid you re sign in each time your run the client application, the code provides a Token cache serialization located in [TodoListClient/FileCache.cs](TodoListClient/FileCache.cs)
 
